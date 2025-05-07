@@ -53,8 +53,8 @@ The main Jupyter notebook (`toxic-comment-classification.ipynb`) walks through a
    - Correlation heatmap across toxicity types
    - Word clouds per class
 
-4. **Vectorization**
-   - TF-IDF and CountVectorizer transformations
+4. **Vectorization and Embedding**
+   - CountVectorizer transformations and Custom Embedding Layer
 
 5. **Model Building**
    - Multinomial Naive Bayes
