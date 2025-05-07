@@ -24,8 +24,8 @@ This project thus serves as the **textual foundation** for a future multimodal t
 
 Throughout this project, I gained a deeper understanding of:
 - Preprocessing pipelines (removing punctuation, stopwords, stemming)
-- Using TF-IDF vectorization and CountVectorizer to convert text into features
-- Training classification models like Logistic Regression and Multinomial Naive Bayes
+- Using CountVectorizer and Custom Embeddings to convert text into features
+- Using LSTM with custom loss function as model
 - Handling **multi-label classification**, as each comment can belong to multiple toxicity classes
 - Evaluating models with confusion matrices, classification reports, and accuracy/F1 scores
 - Visualizing class imbalance and exploring correlation between labels
