@@ -1,5 +1,5 @@
 # Toxic Comment Classification
-**Author**: *[Shifat Ali]*  
+**Author**: *Shifat Ali*  
 *Course Project – DA 623: Multimodal Learning (Winter 2025)*  
 
 ---
@@ -15,11 +15,6 @@ I chose this topic because I wanted to work on a problem that has real-world soc
 ## 🔍 Connecting with Multimodal Learning
 
 While this project focuses on **textual comments**, toxic content on the internet is inherently **multimodal** — hateful messages can occur via **voice, video, memes, or even in multi-language code-switching conversations**.
-
-The techniques used here — such as word embeddings, sequence modeling, and classification — are foundational to many multimodal models. For example:
-- **Visual-text fusion** (memes with offensive text)
-- **Audio-text alignment** (hate speech in speech transcripts)
-- **Multimodal moderation systems** (combining user profiles, audio, and text for better detection)
 
 This project thus serves as the **textual foundation** for a future multimodal toxicity detection system.
 
@@ -103,16 +98,5 @@ The main Jupyter notebook (`toxic-comment-classification.ipynb`) walks through a
 - [NLTK – Natural Language Toolkit](https://www.nltk.org/)
 - [Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/)
 - HuggingFace Transformers (for potential future BERT models)
-- Tools: Python, Jupyter Notebook, Google Colab, GitHub
-- Assistance from ChatGPT for documentation polishing and reflection ideas
 
 ---
-
-## 💻 Running the Notebook
-
-To run the notebook:
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/toxic-comment-classification-blog.git
-   cd toxic-comment-classification-blog
