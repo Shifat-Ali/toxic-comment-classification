@@ -1,6 +1,6 @@
 # Toxic Comment Classification
 **Author**: *Shifat Ali*  
-*Course Project – DA 623: Multimodal Learning (Winter 2025)*  
+*Course Project – DA 623: Computing with Signals (Winter 2025)*  
 
 ---
 
