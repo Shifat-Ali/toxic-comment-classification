@@ -57,8 +57,7 @@ The main Jupyter notebook (`toxic-comment-classification.ipynb`) walks through a
    - CountVectorizer transformations and Custom Embedding Layer
 
 5. **Model Building**
-   - Multinomial Naive Bayes
-   - Logistic Regression (one-vs-rest for multilabel)
+   - LSTM model with custom BCE loss function
 
 6. **Evaluation**
    - Classification reports
@@ -66,7 +65,6 @@ The main Jupyter notebook (`toxic-comment-classification.ipynb`) walks through a
    - Confusion Matrix visualization
 
 7. **Results & Observations**
-   - Logistic Regression outperformed Naive Bayes in most categories
    - Threat and severe_toxic were hard to detect due to class imbalance
 
 8. **Bonus Ideas**
@@ -78,7 +76,6 @@ The main Jupyter notebook (`toxic-comment-classification.ipynb`) walks through a
 ## 🤔 Reflections
 
 ### 💭 What Surprised Me
-- Even basic models like Logistic Regression perform decently with TF-IDF representations.
 - The high correlation between certain labels (e.g., *toxic* and *insult*) was unexpected.
 - Data imbalance is a major challenge in multi-label classification — some labels have <1% samples.
 
