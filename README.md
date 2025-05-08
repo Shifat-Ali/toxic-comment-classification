@@ -27,7 +27,7 @@ Throughout this project, I gained a deeper understanding of:
 - Using CountVectorizer and Custom Embeddings to convert text into features
 - Using LSTM with custom loss function as model
 - Handling **multi-label classification**, as each comment can belong to multiple toxicity classes
-- Evaluating models with confusion matrices, classification reports, and accuracy/F1 scores
+- Evaluating models with confusion matrices, classification reports, ROC and AUC scores
 - Visualizing class imbalance and exploring correlation between labels
 
 I also learned the importance of **data preprocessing and representation** in NLP — raw text data rarely performs well without thoughtful transformation.
